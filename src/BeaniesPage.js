@@ -6,7 +6,6 @@ import BeaniesList from './BeaniesList';
 function App() {
   const [beanieBabies, setBeanieBabies] = useState([]);
   const [page, setPage] = useState(1);
-  // const [totalBeanies, setTotalBeanies] = useState(1);
   const perPage = 40;
   
   
